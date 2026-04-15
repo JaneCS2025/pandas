@@ -37,13 +37,13 @@ This creates a `venv` folder in your project directory.
 **Command Prompt:**
 
 ```bash
-.venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 
 **PowerShell:**
 
 ```powershell
-.venv\Scripts\Activate.ps1
+venv\Scripts\Activate.ps1
 ```
 
 > ⚠️ If you get a PowerShell execution policy error, run this first:
@@ -145,7 +145,7 @@ deactivate
 
 ```
 pandas/
-├── .venv/               # Virtual environment (not committed to git)
+├── venv/               # Virtual environment (not committed to git)
 ├── requirements.txt     # Project dependencies
 └── README.md            # Project documentation
 ```
